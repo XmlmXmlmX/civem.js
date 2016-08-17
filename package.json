@@ -19,19 +19,19 @@
   ],
   "description": "Custom Input Validation Error Messages",
   "keywords": [
-    "custom", 
-    "input", 
-    "validation", 
-    "error", 
-	"messages",
-    "validate", 
-    "form", 
-	"message",
-	"translate",
-	"translation",
-	"i18n",
-	"internationalization",
-	"html5"
+    "custom",
+    "input",
+    "validation",
+    "error",
+    "messages",
+    "validate",
+    "form",
+    "message",
+    "translate",
+    "translation",
+    "i18n",
+    "internationalization",
+    "html5"
   ],
   "homepage": "http://github.com/javanto/civem.js",
   "repository": {
@@ -39,7 +39,7 @@
     "url": "https://github.com/javanto/civem.js.git"
   },
   "files": [
-    "dist/{{= it.name}}.js", 
+    "dist/{{= it.name}}.js",
     "dist/{{= it.name}}.min.js"
   ],
   "build": {
@@ -50,6 +50,8 @@
   "devDependencies": {
     "dot": "^1.0.3",
     "gits": "^0.1.8",
+    "grunt": "^1.0.1",
+    "jake": "^8.0.12",
     "needle": "^1.1.0",
     "node-fs": "^0.1.7",
     "read": "^1.0.7",
